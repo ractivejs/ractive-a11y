@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <script src='../ractive.js'></script>
+  <script src='../dist/build.js'></script>
+</head>
+
+<body>
+  <script id='page' type='text/html'>
+    <button on-click='alert(0)' aria-label='test'></button>
+    <img src='#' />
+  </script>
+</body>
+
+<script>
+  var ractive = new Ractive({
+    el: 'body',
+    template: '#page',
+    onrender: function() {
+      var self = this;
+      self.checka11y();
+    }
+  });
+</script>
+
+</html>
