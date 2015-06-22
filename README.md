@@ -2,6 +2,9 @@
 
 See [the mailing list](https://groups.google.com/forum/#!topic/ractive-js/vv09I0RV14w) for background
 
+Current version is VERY rough.
+Heavily inspired by React-A11y.
+
 Requirements:
 NodeJS
 Browserify (npm install -g browserify)
