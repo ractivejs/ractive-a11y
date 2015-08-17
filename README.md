@@ -1,5 +1,10 @@
 # ractive-a11y
 
+```javascript
+<script src='https://rawgit.com/ractivejs/ractive-a11y/master/dist/build.js' type='text/javascript'></script>
+```
+
+
 See [the mailing list](https://groups.google.com/forum/#!topic/ractive-js/vv09I0RV14w) for background
 
 Current version is VERY rough.
