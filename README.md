@@ -34,7 +34,7 @@ If you want to hack on Ractive, the first step is to clone the repo and install 
 ```bash
 git clone https://github.com/ractivejs/ractive-a11y   # or your fork
 cd ractive-a11y
-npm install
+npm install -g browserify
 ```
 
 To build the library:
