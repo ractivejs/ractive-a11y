@@ -1,22 +1,49 @@
 # ractive-a11y
 
-```javascript
+###Usage:
+Include script:
+```html
 <script src='https://rawgit.com/ractivejs/ractive-a11y/master/dist/build.js' type='text/javascript'></script>
+```
+Run on render:
+```javascript
+onrender:function(){
+  this.checka11y();
+}
+```
+Reports will be printed in the console.
+
+
+*Got questions? Tag Stack Overflow questions with [ractivejs](http://stackoverflow.com/questions/tagged/ractivejs) or contact [@RactiveJS](http://twitter.com/RactiveJS) on Twitter*
+
+
+## What is Ractive-A11y?
+
+It's a plugin for Ractive which will automagically scan for accessibility issues.
+
+
+## Get help
+
+If you don't find what you're looking for in the [docs](http://docs.ractivejs.org/latest), ask a question in [Google Groups](https://groups.google.com/forum/#!forum/ractive-js) forum, Stack Overflow with the [`ractivejs`](http://stackoverflow.com/questions/tagged/ractivejs) tag, or send a tweet to [@RactiveJS](http://twitter.com/RactiveJS).
+
+
+## Developing and building
+
+If you want to hack on Ractive, the first step is to clone the repo and install all its development dependencies:
+
+```bash
+git clone https://github.com/ractivejs/ractive-a11y   # or your fork
+cd ractive-a11y
+npm install
+```
+
+To build the library:
+
+```bash
+browserify lib/index.js -o dist/build.js -d
 ```
 
 
-See [the mailing list](https://groups.google.com/forum/#!topic/ractive-js/vv09I0RV14w) for background
+## Contributing
 
-Current version is VERY rough.
-Heavily inspired by React-A11y.
-
-Requirements:
-NodeJS
-Browserify (npm install -g browserify)
-
-Building:
-browserify lib/index.js -o dist/build.js -d
-
-Resources:
-[Web Accessibility Checklist](http://a11yproject.com/checklist.html)
-[React-A11y](https://github.com/rackt/react-a11y)
+Pull requests and issues are always welcome! Please read [CONTRIBUTING.md](https://github.com/ractivejs/ractive/blob/master/CONTRIBUTING.md) to learn how to contribute.
